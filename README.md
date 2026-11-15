@@ -1,3 +1,4 @@
+
 # Loan Risk & Application Management System
 
 A database-driven web application designed to manage loan applications, assess applicant risk, store loan documents, and perform vector similarity searches.
@@ -9,19 +10,17 @@ A database-driven web application designed to manage loan applications, assess a
 | Shweta Mailaragouda Patil | PES2UG25CS825 |
 | Soubhagya | PES2UG25CS827 |
 
-
-
 ## Project Overview
 
 The Loan Risk & Application Management System provides a platform to manage loan applications and applicant information. It integrates relational database management, NoSQL document storage, and vector search capabilities.
 
 ## Technology Stack
 
-- **Frontend:** Next.js, React, TypeScript, Tailwind CSS
-- **Relational Database:** PostgreSQL
-- **Vector Database:** PostgreSQL with pgvector
-- **NoSQL Database:** MongoDB
-- **Backend:** Next.js API Routes
+- Frontend: Next.js, React, TypeScript, Tailwind CSS
+- Relational Database: PostgreSQL
+- Vector Database: PostgreSQL with pgvector
+- NoSQL Database: MongoDB
+- Backend: Next.js API Routes
 
 ## Key Features
 
@@ -51,27 +50,7 @@ Stores vector embeddings and supports similarity searches using cosine distance.
 | `/api/assess-risk` | POST | Assess applicant risk |
 | `/api/loan-documents` | GET, POST | Manage loan documents |
 | `/api/vector-search` | POST | Perform vector similarity search |
-
-## Project Structure
-
-```text
-LoanRisk_Submission/
-├── app/
-│   ├── api/
-│   │   ├── applications/
-│   │   ├── assess-risk/
-│   │   ├── loan-documents/
-│   │   └── vector-search/
-│   ├── layout.tsx
-│   └── page.tsx
-├── lib/
-│   ├── db.ts
-│   └── mongodb.ts
-├── public/
-├── package.json
-├── package-lock.json
-└── README.md
-```
+| `/api/test-db` | GET | Test database connectivity |
 
 ## Running the Project
 
@@ -82,7 +61,7 @@ LoanRisk_Submission/
 npm install
 ```
 
-3. Configure the required database connection environment variables in `.env.local`.
+3. Configure the database connection in `.env.local`.
 4. Start the development server:
 
 ```bash
