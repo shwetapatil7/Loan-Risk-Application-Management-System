@@ -9,8 +9,7 @@ A database-driven web application designed to manage loan applications, assess a
 | Shweta Mailaragouda Patil | PES2UG25CS825 |
 | Soubhagya | PES2UG25CS827 |
 
-**Institution:** PES University  
-**Academic Year:** 2026
+
 
 ## Project Overview
 
