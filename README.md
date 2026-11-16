@@ -76,4 +76,4 @@ This project demonstrates the integration of SQL, NoSQL, and vector database tec
 
 ---
 
-**Academic DBMS Project – PES University, 2026**
+
